@@ -2,9 +2,14 @@ body {
     padding: 0px;
     margin: 0px;
 }
+.navbar:hover{
+transition: width 2s ease-out .25s;
+width: 180px;
+}
 .navbar {
+    opacity: 100%;
     position: fixed;
-    width: 180px;
+    width: 10px;
     background: forestgreen;
     height: 100%;
     margin: 0px;
