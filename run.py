@@ -33,6 +33,22 @@ def question():
 def question2():
     return render_template("question2.html", question=random_question())
 
+@app.route("/bio")
+def Bio_Pages():
+    return render_template("bio.html")
+
+@app.route("/Shivam")
+def Shivam():
+    return render_template("Shivam.html")
+
+@app.route("/Liam")
+def Liam():
+    return render_template("Liam.html")
+
+@app.route("/Stefan")
+def Stefan():
+    return render_template("Stefan.html")
+
 @app.route("/answer/<int:question_id>/<int:answer_id>")
 def answer(question_id, answer_id):
     correct = check_answer(question_id, answer_id)
