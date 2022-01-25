@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "First Question",
+        "title": "Quiz",
         "question": "What is the correct answer?",
         "answers": [
             {
@@ -10,6 +10,22 @@
             }, {
                 "id": 2,
                 "text": "No this one!!"
+            }
+        ],
+        "correct": 1
+    },
+
+    {
+        "id": 1,
+        "title": "Quiz",
+        "question": "Who is the better Waifu?",
+        "answers": [
+            {
+                "id": 2,
+                "text": "Lucy"
+            }, {
+                "id": 1,
+                "text": "Asuna!"
             }
         ],
         "correct": 1
