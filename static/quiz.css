@@ -66,6 +66,10 @@ h1 {
     flex-direction: row;
 }
 
+.our {
+    color: red;
+}
+
 .answer-item {
     list-style: None;
     margin: 0px auto;
