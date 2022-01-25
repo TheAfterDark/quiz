@@ -6,6 +6,9 @@ body {
 transition: width 2s ease-out .25s;
 width: 180px;
 }
+#listnames {
+    line-height: 20px;
+}
 .navbar {
     opacity: 100%;
     position: fixed;
