@@ -2,14 +2,30 @@
     {
         "id": 1,
         "title": "Quiz",
-        "question": "What is the correct answer?",
+        "question": "What is came first?",
         "answers": [
             {
                 "id": 1,
-                "text": "This one"
+                "text": "Orange(colour)"
             }, {
                 "id": 2,
-                "text": "No this one!!"
+                "text": "Orange(fruit)"
+            }
+        ],
+        "correct": 2
+    },
+
+    {
+        "id": 1,
+        "title": "Quiz",
+        "question": "What came first?",
+        "answers": [
+            {
+                "id": 2,
+                "text": "The egg"
+            }, {
+                "id": 1,
+                "text": "The chicken"
             }
         ],
         "correct": 1
@@ -18,14 +34,158 @@
     {
         "id": 1,
         "title": "Quiz",
-        "question": "Who is the better Waifu?",
+        "question": "Are zebras black or white?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "white"
+            }, {
+                "id": 2,
+                "text": "black"
+            }
+        ],
+        "correct": 2
+    },
+
+    {
+        "id": 1,
+        "title": "Quiz",
+        "question": "What came first?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "Coffe Latte"
+            }, {
+                "id": 2,
+                "text": "Cappuccino"
+            }
+        ],
+        "correct": 2
+    },
+
+    {
+        "id": 1,
+        "title": "Quiz",
+        "question": "What came first?",
         "answers": [
             {
                 "id": 2,
-                "text": "Lucy"
+                "text": "Adidas"
             }, {
                 "id": 1,
-                "text": "Asuna!"
+                "text": "Nike"
+            }
+        ],
+        "correct": 1
+    },
+
+    {
+        "id": 1,
+        "title": "Quiz",
+        "question": "What came first?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "Ketchup"
+            }, {
+                "id": 2,
+                "text": "Mustard"
+            }
+        ],
+        "correct": 2
+    },
+
+    {
+        "id": 1,
+        "title": "Quiz",
+        "question": "What came first?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "Dell"
+            }, {
+                "id": 2,
+                "text": "HP"
+            }
+        ],
+        "correct": 2
+    },
+
+    {
+        "id": 1,
+        "title": "Quiz",
+        "question": "What came first?",
+        "answers": [
+            {
+                "id": 2,
+                "text": "Gatorade"
+            }, {
+                "id": 1,
+                "text": "Powerade"
+            }
+        ],
+        "correct": 1
+    },
+
+    {
+        "id": 1,
+        "title": "Quiz",
+        "question": "What colour is the mirror?",
+        "answers": [
+            {
+                "id": 2,
+                "text": "green"
+            }, {
+                "id": 1,
+                "text": "silver"
+            }
+        ],
+        "correct": 1
+    },
+
+    {
+        "id": 1,
+        "title": "Quiz",
+        "question": "How much percent of the brain do we really use?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "30%"
+            }, {
+                "id": 2,
+                "text": "100%"
+            }
+        ],
+        "correct": 1
+    },
+
+    {
+        "id": 1,
+        "title": "Quiz",
+        "question": "Can you fire a gun in space?",
+        "answers": [
+            {
+                "id": 2,
+                "text": "Yes"
+            }, {
+                "id": 1,
+                "text": "No"
+            }
+        ],
+        "correct": 1
+    },
+
+    {
+        "id": 1,
+        "title": "Quiz",
+        "question": "Is time travel possible?",
+        "answers": [
+            {
+                "id": 2,
+                "text": "Yes"
+            }, {
+                "id": 1,
+                "text": "No"
             }
         ],
         "correct": 1
