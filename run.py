@@ -53,6 +53,13 @@ def Stefan():
 def Group():
     return render_template("Group.html")
 
+@app.route("/BBC")
+def news():
+    return render_template("BBC.html")
+
+@app.route("/virus")
+def virus():
+    return render_template("virus.html")
 @app.route("/answer/<int:question_id>/<int:answer_id>")
 def answer(question_id, answer_id):
     correct = check_answer(question_id, answer_id)
