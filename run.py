@@ -2,6 +2,24 @@
 from flask import Flask, render_template
 import json
 from random import choice
+from bs4 import BeautifulSoup
+import requests
+
+def BBC_News():
+    url = "https://www.bbc.com"
+
+    response = requests.get(url)
+
+    soup = BeautifulSoup(response.content, "html.parser")
+
+    dic = [item 
+       for item in soup.select(".media__summary")]
+
+    elem = choice(dic)
+
+    c = elem.select(".media__summary")
+
+    return(elem)
 
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
@@ -55,7 +73,7 @@ def Group():
 
 @app.route("/BBC")
 def news():
-    return render_template("BBC.html")
+    return render_template("BBC.html",bbc=BBC_News())
 
 @app.route("/virus")
 def virus():
