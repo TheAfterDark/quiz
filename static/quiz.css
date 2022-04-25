@@ -2,6 +2,16 @@ body {
     padding: 0px;
     margin: 0px;
 }
+body, html {
+    background-image: url("https://th.bing.com/th/id/R.093175802ac6147021446919fac825ef?rik=2hZ4xfE4E0FDrw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2fd%2f9%2f107799.jpg&ehk=Ioeg%2bxPeEwAedtU1w5hpmZvZWxoyizvTtDW%2fJAvq%2fJs%3d&risl=&pid=ImgRaw&r=0");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .navbar:hover{
 transition: width 2s ease-out .25s;
 width: 180px;
@@ -13,9 +23,10 @@ width: 180px;
     opacity: 100%;
     position: fixed;
     width: 10px;
-    background: rgb(28, 29, 30);
+    background: orange;
     height: 50%;
     margin: 0px;
+    flex-direction: row;
 }
 .nav-item {
     list-style: None;
@@ -23,7 +34,7 @@ width: 180px;
 }
 .nav-link {
     text-decoration: None;
-    color: white;
+    color: black;
     font-size: 1.4rem;
     transition: all 400ms;
 }
@@ -133,3 +144,12 @@ h1 {
     background-color: rgb(255, 136, 0);
 }
 
+p {
+    color:red;
+}
+a {
+    color:red;
+}
+h2 {
+    color:red;
+}
