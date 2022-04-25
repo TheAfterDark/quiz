@@ -16,9 +16,9 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 def home():
     return render_template("index.html")
 
-@app.route("/How To Play")
+@app.route("/HowToPlay")
 def Bio_Pages():
-    return render_template("hwt.html")
+    return render_template("htw.html")
 
 @app.route("/Group")
 def Group():
