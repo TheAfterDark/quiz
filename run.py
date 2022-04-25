@@ -29,5 +29,9 @@ def play():
     return render_template("ptg.html")
 
 
+@app.route("/Process")
+def Process():
+    return render_template("Process.html")
+
 if __name__ == "__main__":
     app.run()
