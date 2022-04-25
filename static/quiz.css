@@ -37,6 +37,7 @@ width: 180px;
     color: black;
     font-size: 1.4rem;
     transition: all 400ms;
+    background-color: transparent;
 }
 .nav-link:hover {
     font-size: 1.6rem;
@@ -145,11 +146,17 @@ h1 {
 }
 
 p {
-    color:red;
+    color:black;
+    background-color: white;
+    display: inline-block;
 }
 a {
-    color:red;
+    color:black;
+    background: white;
+    display: inline-block;
 }
 h2 {
-    color:red;
+    color:black;
+    background-color: white;
+    display: inline-block;
 }
